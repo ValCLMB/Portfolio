@@ -1,3 +1,4 @@
+import "./Title.css";
 import { PropsWithChildren } from "react";
 import { motion } from "framer-motion";
 

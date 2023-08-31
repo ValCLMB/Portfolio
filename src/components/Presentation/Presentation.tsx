@@ -4,7 +4,6 @@ import "./Presentation.css";
 
 export const Presentation = () => {
   // Animations
-
   const rightSlide = {
     hidden: { opacity: 0, x: -80 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.3, delay: 0.8 } },
@@ -30,6 +29,7 @@ export const Presentation = () => {
     <section className="presentation h-screen py-96">
       <p>
         <motion.span
+          whileHover={{ scale: 1.1 }}
           {...animationLabels}
           custom={{ delay: 0 }}
           variants={opacity}
