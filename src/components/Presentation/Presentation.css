@@ -1,0 +1,13 @@
+.main-title {
+  position: relative;
+  /* Text gradient effect */
+  background: linear-gradient(to right, #003bfd 10%, #02fff0 40%, #003bfd 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 2;
+}
+.presentation p {
+  font-size: 1.8rem;
+  margin: 0;
+}

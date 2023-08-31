@@ -1,0 +1,14 @@
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+.highlight {
+  /* Text gradient effect */
+  background: linear-gradient(to right, cyan 35%, blue 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

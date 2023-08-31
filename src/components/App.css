@@ -1,0 +1,48 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #060016;
+}
+.App main {
+  width: 70%;
+  margin: 0 auto;
+}
+.blobs {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.blob {
+  position: absolute;
+  padding: 5px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.first-blob {
+  width: 400px;
+  height: 400px;
+  top: -250px;
+  left: 500px;
+  filter: blur(300px);
+  background-color: rgb(144, 196, 255);
+  animation: scale 10s infinite alternate;
+}
+.second-blob {
+  width: 300px;
+  height: 300px;
+  top: 1200px;
+  left: -200px;
+  filter: blur(350px);
+  background-color: rgb(144, 196, 255);
+}
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}

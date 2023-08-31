@@ -1,0 +1,42 @@
+.cursor-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  z-index: 1;
+}
+.cursor {
+  position: relative;
+  width: 270px;
+  aspect-ratio: 1;
+  left: -50px;
+  top: -50px;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    rgba(103, 103, 255, 0.5) 30%,
+    rgba(0, 255, 204, 0.5)
+  );
+  animation: rotate 20s infinite;
+}
+
+.blur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  backdrop-filter: blur(100px);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  50% {
+    scale: 1 1.5;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
