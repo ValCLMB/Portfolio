@@ -1,6 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap");
+
+@font-face {
+  font-family: "studio_feixen_sans_vf_trial";
+  src: url("/src/assets/fonts/studiofeixensansvftrialgx-webfont.woff2")
+      format("woff2"),
+    url("/src/assets/fonts/studiofeixensansvftrialgx-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "studio_feixen_sans_trialbold";
+  src: url("/src/assets/fonts/studiofeixensanstrial-bold-webfont.woff2")
+      format("woff2"),
+    url("/src/assets/fonts/studiofeixensanstrial-bold-webfont.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: bold;
+}
 
 * {
   box-sizing: border-box;
@@ -16,9 +36,9 @@ div {
   z-index: 3;
 }
 body {
+  font-family: "studio_feixen_sans_vf_trial", sans-serif;
   padding: 0;
   margin: 0;
-  font-family: "Campuni Test", sans-serif;
   color: white;
 }
 .title {

@@ -27,7 +27,7 @@
   top: -250px;
   left: 500px;
   filter: blur(300px);
-  background-color: rgb(144, 196, 255);
+  background-color: rgb(198, 144, 255);
   animation: scale 10s infinite alternate;
 }
 .second-blob {
