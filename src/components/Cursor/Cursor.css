@@ -19,6 +19,7 @@
     rgba(0, 255, 204, 0.5)
   );
   animation: rotate 20s infinite;
+  transition: all 1s;
 }
 
 .blur {
@@ -26,7 +27,10 @@
   height: 100%;
   width: 100%;
   z-index: 2;
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(120px);
+}
+.scale {
+  transform: scale(3);
 }
 
 @keyframes rotate {

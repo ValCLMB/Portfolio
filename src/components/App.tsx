@@ -1,5 +1,6 @@
 import "./App.css";
 import { Cursor } from "./Cursor/Cursor";
+import { Header } from "./Header/Header";
 import { Hobbies } from "./Hobbies/Hobbies";
 import { Presentation } from "./Presentation/Presentation";
 import { ShootingStars } from "./ShootingStars/ShootingStars";
@@ -21,6 +22,7 @@ function App() {
       <Cursor />
       <ShootingStars />
       <main>
+        <Header />
         <Presentation />
         <Skills />
         <Hobbies />

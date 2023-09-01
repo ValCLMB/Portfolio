@@ -1,0 +1,8 @@
+.main-title {
+  color: white;
+  z-index: 2;
+}
+.main-title svg {
+  width: 70px;
+  aspect-ratio: 1;
+}

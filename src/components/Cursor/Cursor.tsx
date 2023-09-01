@@ -13,8 +13,15 @@ export const Cursor = () => {
           left: `${clientX}px`,
           top: `${clientY}px`,
         },
-        { duration: 3000, fill: "forwards" }
+        { duration: 2000, fill: "forwards" }
       );
+    };
+
+    document.body.onclick = () => {
+      ref.current?.classList.add("scale");
+      setTimeout(() => {
+        ref.current?.classList.remove("scale");
+      }, 100);
     };
   }, [ref]);
 

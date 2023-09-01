@@ -12,15 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "studio_feixen_sans_trialbold";
-  src: url("/src/assets/fonts/studiofeixensanstrial-bold-webfont.woff2")
-      format("woff2"),
-    url("/src/assets/fonts/studiofeixensanstrial-bold-webfont.woff")
-      format("woff");
-  font-weight: bold;
-  font-style: bold;
-}
 
 * {
   box-sizing: border-box;
