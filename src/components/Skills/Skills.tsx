@@ -7,6 +7,7 @@ import { ReactComponent as React } from "./../../assets/icons/react.svg";
 import { ReactComponent as Typescript } from "./../../assets/icons/typescript.svg";
 import { ReactComponent as Tailwind } from "./../../assets/icons/tailwindcss.svg";
 import { Title } from "../Title/Title";
+// import { Title } from "../Title/Title";
 
 export const Skills = () => {
   const skills = {
@@ -26,9 +27,9 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skills pb-60">
-      <Title>Skills</Title>
-      <div className="flex justify-between">
+    <section className="skills py-60">
+      {/* <Title>Skills</Title> */}
+      <div className="flex  justify-between">
         {Object.entries(skills).map(([title, skills]) => (
           <SkillsBlock key={title} title={title} skills={skills} />
         ))}

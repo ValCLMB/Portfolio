@@ -20,7 +20,7 @@ export const Presentation = () => {
   };
 
   return (
-    <section className="presentation h-screen py-96">
+    <section className="presentation h-5/6 py-96">
       <motion.h2
         {...animationLabels}
         variants={opacity}

@@ -63,7 +63,6 @@ export const SkillsBlock = ({ title, skills }: SkillsBlockProps) => {
             className={`skill ${highlight ? "highlight" : ""}`}
           >
             {Icon ? <Icon /> : null}
-            {name}
           </motion.p>
         );
       })}

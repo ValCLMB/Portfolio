@@ -4,6 +4,10 @@
   gap: 10px;
   font-size: 1.3rem;
 }
+.skill svg {
+  width: 80px;
+  aspect-ratio: 1;
+}
 
 .highlight {
   /* Text gradient effect */
